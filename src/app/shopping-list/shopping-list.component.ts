@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Ingerient } from '../shared/ingedient.model';
 
 @Component({
   selector: 'app-shopping-list',
@@ -6,7 +7,10 @@ import { Component } from '@angular/core';
   styleUrl: './shopping-list.component.css'
 })
 export class ShoppingListComponent {
-  ingredients = [];
+  ingredients: Ingerient[] = [
+    new Ingerient('Apples', 5),
+    new Ingerient('Tomatos', 4),
+  ];
 
   constructor() { }
 
