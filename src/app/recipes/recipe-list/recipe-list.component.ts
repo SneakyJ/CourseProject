@@ -8,10 +8,10 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent {
   recipes: Recipe[] = [
-    new Recipe('Test recipe', 'This is test recipe', 'https://bakesbybrownsugar.com/wp-content/uploads/2023/03/Sabayon-Sauce-19C.jpg.webp'),
-    new Recipe('Test recipe', 'This is test recipe', 'https://bakesbybrownsugar.com/wp-content/uploads/2023/03/Sabayon-Sauce-19C.jpg.webp'),
-    new Recipe('Test recipe', 'This is test recipe', 'https://bakesbybrownsugar.com/wp-content/uploads/2023/03/Sabayon-Sauce-19C.jpg.webp'),
-    new Recipe('Test recipe', 'This is test recipe', 'https://bakesbybrownsugar.com/wp-content/uploads/2023/03/Sabayon-Sauce-19C.jpg.webp')
+    new Recipe('Test recipe', 'This is test recipe', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXMvpbYxG7m2ABw_TGDsKdHJuksdI815lVdSxmmuzzp282KbjZXcHOElke3K0rzTB8aMk&usqp=CAU'),
+    new Recipe('Test recipe', 'This is test recipe', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXMvpbYxG7m2ABw_TGDsKdHJuksdI815lVdSxmmuzzp282KbjZXcHOElke3K0rzTB8aMk&usqp=CAU'),
+    new Recipe('Test recipe', 'This is test recipe', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXMvpbYxG7m2ABw_TGDsKdHJuksdI815lVdSxmmuzzp282KbjZXcHOElke3K0rzTB8aMk&usqp=CAU'),
+    new Recipe('Test recipe', 'This is test recipe', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXMvpbYxG7m2ABw_TGDsKdHJuksdI815lVdSxmmuzzp282KbjZXcHOElke3K0rzTB8aMk&usqp=CAU  ')
   ];
 
   constructor() { }
